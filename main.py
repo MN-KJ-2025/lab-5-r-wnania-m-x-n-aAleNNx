@@ -60,7 +60,6 @@ def square_from_rectan(
 
     A_new = np.transpose(A) @ A
     B_new = np.transpose(A) @ b
-    x = np.linalg.solve(A_new, B_new)
     return (A_new, B_new) 
 
 
